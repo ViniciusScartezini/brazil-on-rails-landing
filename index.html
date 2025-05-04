@@ -4,108 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brazil on Rails</title>
+  <title>Brazil on Rails - Uma só voz em prol do setor!</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
-    * {
-      font-family: 'Poppins', sans-serif;
-    }
+    * { font-family: 'Poppins', sans-serif; }
   </style>
 </head>
 
 <body class="text-gray-800">
+  <!-- Header -->
+  <header class="bg-[#023D54] text-white py-4">
+    <nav class="container mx-auto flex justify-between items-center px-4">
+      <img src="https://raw.githubusercontent.com/ViniciusScartezini/brazil-on-rails-landing/main/LOGOBOR.jpg" class="h-16" alt="Logo Brazil on Rails">
+      <ul class="flex gap-6">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#empresas">Empresas</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#video">Vídeo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <!-- Hero Section -->
-  <section class="bg-cover bg-center h-screen flex items-center justify-center text-center"
-    style="background-image: url('https://source.unsplash.com/1600x900/?railway,train,city')">
-    <div class="bg-black bg-opacity-50 p-8 rounded-xl">
-      <h1 class="text-4xl md:text-6xl text-white font-bold mb-4">
-        Brazil on Rails: Conectando o Brasil ao Futuro da Mobilidade Global
-      </h1>
-      <a href="#sobre"
-        class="mt-6 inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-full hover:bg-yellow-500 transition duration-300">
-        Saiba Mais
-      </a>
-    </div>
+  <section class="bg-[#006E9A] text-white py-20 text-center">
+    <h1 class="text-5xl font-bold">Uma só voz em prol do setor!</h1>
+    <a href="#sobre" class="mt-6 inline-block bg-[#FED81F] text-black font-semibold py-2 px-6 rounded">Saiba Mais</a>
   </section>
 
-  <!-- Sobre Section -->
-  <section id="sobre" class="py-16 bg-gray-50 text-center">
-    <h2 class="text-3xl font-bold mb-4">O que é Brazil on Rails?</h2>
-    <p class="max-w-3xl mx-auto">
-      Brazil on Rails é um movimento que promove conexões estratégicas no setor ferroviário e de mobilidade, destacando a sustentabilidade e inovação tecnológica. Nosso objetivo é posicionar o Brasil como líder global em mobilidade inteligente e sustentável.
-    </p>
-  </section>
-
-  <!-- Benefícios Section -->
-  <section class="py-16">
-    <h2 class="text-3xl font-bold text-center mb-12">Por que participar?</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="text-center">
-        <div class="text-5xl">🌎</div>
-        <h3 class="text-xl font-semibold mt-4">Conexões Globais</h3>
-        <p class="mt-2">Amplie suas conexões internacionais com líderes do setor ferroviário.</p>
-      </div>
-      <div class="text-center">
-        <div class="text-5xl">🤝</div>
-        <h3 class="text-xl font-semibold mt-4">Networking Estratégico</h3>
-        <p class="mt-2">Acesse oportunidades exclusivas e trocas positivas entre empresas líderes.</p>
-      </div>
-      <div class="text-center">
-        <div class="text-5xl">🚀</div>
-        <h3 class="text-xl font-semibold mt-4">Visibilidade Internacional</h3>
-        <p class="mt-2">Participe dos maiores eventos globais do setor ferroviário e de mobilidade.</p>
-      </div>
-    </div>
+  <!-- Sobre o Movimento -->
+  <section id="sobre" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Sobre o Brazil on Rails</h2>
+    <p>Missão do Movimento: Levar o setor ferroviário e de mobilidade brasileiro e latino-americano aos mais relevantes palcos internacionais. Criamos estruturas compartilhadas que reduzem custos e aumentam a visibilidade das marcas, impulsionando negócios, networking e aprendizado.</p>
   </section>
 
   <!-- Eventos Confirmados -->
-  <section class="bg-gray-100 py-16">
-    <h2 class="text-3xl font-bold text-center mb-12">Eventos Confirmados em 2025</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="https://source.unsplash.com/600x400/?indianapolis" alt="Railway Interchange">
-        <div class="p-4">
-          <h3 class="text-xl font-bold">Railway Interchange</h3>
-          <p>20 a 22 de Maio, Indianapolis/EUA</p>
-        </div>
+  <section id="eventos" class="py-16 bg-gray-100 container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Eventos Confirmados</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg p-4 rounded">
+        <img src="https://raw.githubusercontent.com/ViniciusScartezini/brazil-on-rails-landing/main/LOGORAILWAY.png" class="mx-auto">
+        <h3 class="font-bold mt-4">Railway Interchange 2025</h3>
+        <p>Indianapolis | EUA<br>20 a 22 maio 2025</p>
       </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="https://source.unsplash.com/600x400/?hamburg,germany" alt="UITP Summit">
-        <div class="p-4">
-          <h3 class="text-xl font-bold">UITP Summit</h3>
-          <p>15 a 18 de Junho, Hamburgo/Alemanha</p>
-        </div>
+      <div class="bg-white shadow-lg p-4 rounded">
+        <img src="https://raw.githubusercontent.com/ViniciusScartezini/brazil-on-rails-landing/main/LOGOUITP.png" class="mx-auto">
+        <h3 class="font-bold mt-4">UITP Summit 2025</h3>
+        <p>Hamburgo | Alemanha<br>15 a 18 junho 2025</p>
       </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="https://source.unsplash.com/600x400/?colorado,springs" alt="IHHA/WCRR">
-        <div class="p-4">
-          <h3 class="text-xl font-bold">IHHA/WCRR</h3>
-          <p>17 a 21 de Novembro, Colorado Springs/EUA</p>
-        </div>
+      <div class="bg-white shadow-lg p-4 rounded">
+        <img src="https://raw.githubusercontent.com/ViniciusScartezini/brazil-on-rails-landing/main/LOGOIHHA.jpg" class="mx-auto">
+        <h3 class="font-bold mt-4">IHHA + WCRR 2025</h3>
+        <p>Colorado Springs | EUA<br>17 a 21 novembro 2025</p>
       </div>
     </div>
   </section>
 
-  <!-- CTA Final -->
-  <section class="py-16 text-center">
-    <h2 class="text-3xl font-bold mb-4">Pronto para levar sua empresa mais longe?</h2>
-    <a href="#contato"
-      class="mt-6 inline-block bg-green-500 text-white font-semibold py-3 px-6 rounded-full hover:bg-green-600 transition duration-300">
-      Entre em Contato Agora!
-    </a>
+  <!-- Contato -->
+  <section id="contato" class="py-16 bg-[#007639] text-white text-center">
+    <h2 class="text-3xl font-bold">Contato</h2>
+    <p class="mt-4">Email: alexandre.barros@rvconecta.com | Telefone: +55 (11) 98369-5323</p>
   </section>
 
   <!-- Rodapé -->
-  <footer class="bg-gray-800 py-6 text-center text-white">
+  <footer class="bg-[#023D54] py-6 text-center text-white">
     <p>&copy; 2025 Brazil on Rails. Todos os direitos reservados.</p>
     <div class="mt-2">
-      <a href="#" class="mx-2">LinkedIn</a> |
-      <a href="#" class="mx-2">Instagram</a>
+      <a href="https://www.linkedin.com/company/brazil-on-rails/" class="mx-2">LinkedIn</a> |
+      <a href="https://www.instagram.com/brazilonrails" class="mx-2">Instagram</a>
     </div>
   </footer>
 </body>
